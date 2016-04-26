@@ -22,7 +22,7 @@ public class StrongConnect {
             }
         }
     }
-    public void man(){int a =0;}
+    public void man(){}
     private void dfs(Digraph g, int s){
         marked[s] = true;
         id[s] = count;
